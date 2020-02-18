@@ -1,6 +1,6 @@
 {
   "name": "micro-static",
-  "version": "0.0.0",
+  "version": "0.1.1",
   "description": "Static file with micro",
   "main": "dist/index.js",
   "scripts": {
@@ -10,6 +10,14 @@
   },
   "author": "shooontan",
   "license": "MIT",
+  "repository": "shooontan/micro-static",
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "micro",
+    "static"
+  ],
   "dependencies": {
     "send": "^0.17.1"
   },
