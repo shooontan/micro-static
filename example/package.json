@@ -1,0 +1,20 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "micro",
+    "build": "tsc",
+    "prebuild": "rm -rf dist"
+  },
+  "devDependencies": {
+    "@shooontan/tsconfig": "0.0.1",
+    "typescript": "^3.7.5"
+  },
+  "dependencies": {
+    "@types/micro": "^7.3.3",
+    "@types/microrouter": "^3.1.1",
+    "micro": "^9.3.4",
+    "microrouter": "^3.1.3"
+  }
+}
